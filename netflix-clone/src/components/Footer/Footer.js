@@ -43,6 +43,7 @@ const Footer = () => {
             <li>Contact Us</li>
           </ul>
         </div>
+    </div>
 
         <div className='server_code'>
           <p>
@@ -53,7 +54,6 @@ const Footer = () => {
           &copy; 1997-2024 Netflix, Inc.
         </div>
       </div>
-    </div>
     </div>
   )
 }
