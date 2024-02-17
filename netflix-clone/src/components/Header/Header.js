@@ -7,8 +7,10 @@ import AccountBoxIcon from '@mui/icons-material/AccountBox';
 import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
 const Header = () => {
   return (
-    <div className='header_outer_container'>
-      <div className='header_container'>
+    <div className='header_outer_container w-full items-center 
+    justify-between absolute z-{100} '>
+      <div className='header_container font-bold text-white-600 px-4 py2
+      text-5xl cursor-pointer'>
       {/* <div className=' flex header w-full items-center 
       justify-between absolute z-{100}'> */}
       <div className='header_left'>
@@ -16,7 +18,7 @@ const Header = () => {
       text-5xl cursor-pointer'> */}
 
         <ul>
-          <li><img src={NetfliexLogo} alt="Netfliex Logo" width="100" /></li>
+          <li><img src={NetfliexLogo} alt="Netfliex_Logo_PMS.png" width="100" /></li>
           <li>Netfliex</li>
           <li>Home</li>
           <li>TvShows</li>
