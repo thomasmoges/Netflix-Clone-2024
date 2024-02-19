@@ -92,14 +92,14 @@
 
 
 import React, { useEffect, useState } from 'react'
-import "./row.css";
+import "./Row.css";
 import axios from "../../../utils/axios";
-import movieTrailer from 'movie-trailer';
-import YouTube from 'react-youtube';
+// import movieTrailer from 'movie-trailer';
+// import YouTube from 'react-youtube';
 
 const Row = ({ title, fetchUrl, isLargeRow }) => {
     const [movies, setMovie] = useState([]);
-    const [trailerUrl, setTrailerUrl] = useState("");
+    // const [trailerUrl, setTrailerUrl] = useState("");
 
     const base_url = "https://image.tmdb.org/t/p/original";
 
